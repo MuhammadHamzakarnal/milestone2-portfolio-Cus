@@ -1,0 +1,59 @@
+.aboutContainer {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.aboutHeader {
+  font-size: 2.25rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #4a90e2;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Courier New", monospace;
+}
+
+.aboutText {
+  font-size: 1.125rem;
+  color: #4a4a4a;
+  font-weight: 300;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.aboutButton {
+  padding: 12px 30px;
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 8px;
+  font-family: "Georgia", serif;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.aboutButton:hover {
+  background-color: #6cc34e;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .aboutText {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutHeader {
+    font-size: 1.875rem;
+  }
+}
